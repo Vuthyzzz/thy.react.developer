@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+
+.blinking-cursor {
+    font-weight: 100;
+    font-size: 2rem;
+    color: #4f46e5; /* indigo-600 */
+    animation: blink 1s step-start infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {          
+  50% { 
+    opacity: 0; 
+  }
+}
+
+
+@media only screen and (min-width: 8848px) and (max-width: 1104px) and (orientation: portrait) {
+    
+    .texth,.texth1 {
+        font-size: 10px;
+      }
+      .texth1s{
+        font-size: 25px;
+        position: relative;
+        bottom: 20px;
+      }
+      .textp{
+        font-size: 18px;
+        position: relative;
+        bottom: 20px;
+      }
+
+      .zoom-imageP{
+      width: 100px;
+      }                     
+      
+}
+
+/* phone */
+@media (max-width: 500px) {
+   
+      .texth,.texth1 {
+        font-size: 25px;
+      }
+      .texth1s{
+        font-size: 25px;
+        position: relative;
+        bottom: 20px;
+      }
+      .textp{
+        font-size: 18px;
+        position: relative;
+        bottom: 20px;
+      }
+      .db{
+        position: relative;
+        bottom: 50px;
+      }
+
+      .fb{
+        width: 12.7rem;
+      }
+     
+      .purpose-box{
+        position: relative;
+        bottom: 120px;
+      }
+      .front{
+        position: relative;
+        bottom: np120px;
+      }
+
+      .profile{
+        position: relative;
+        bottom: 100px;
+      }
+      .full{
+        position: relative;
+        bottom: 100px;
+      }
+
+
+
+      .myprofile{
+        width: 200px;
+        position: relative;
+        top: 40px;
+      }
+
+}
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.zoom-image {
+  animation: zoomInOut 3s ease-in-out infinite;
+}
+
+
+.animated-square {
+  position: absolute;
+  background: rgba(93, 215, 255, 0.15);
+  border-radius: 8px;
+  animation: floatMove 24s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes floatMove {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: translateY(-20px) rotate(15deg) scale(1.1);
+    opacity: 0.3;
+  }
+}
+
+
+
+
+
+
