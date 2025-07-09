@@ -55,7 +55,6 @@ function Home() {
 
    const [showQR, setShowQR] = useState(false);
   
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const words = ["THIS WEBSITE", "MY PROFILE", "DEVELOPER"];
   const [displayedText, setDisplayedText] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
@@ -285,7 +284,7 @@ function Home() {
             </div>
 
               <div className="w-80 h-100 m-5 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
-                <img className="h-18" src="/public/assets/c-sharp.png"></img>
+                <img className="h-18" src="/assets/c-sharp.png"></img>
                 <h1 className="text-2xl font-semibold">C#</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
                   C# is a modern, object-oriented programming language developed by Microsoft. It’s mainly used for:
@@ -352,7 +351,7 @@ function Home() {
             </div>
 
             <div className="w-80 h-100 m-5 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
-                <img className="h-18" src="/public/assets/wamp.png"></img>
+                <img className="h-18" src="/assets/wamp.png"></img>
                 <h1 className="text-2xl font-semibold">Wamp Server</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
                   ailwind CSS is a modern utility-first CSS framework for rapidly building custom user interfaces.
@@ -393,7 +392,7 @@ function Home() {
            
 
             <div className="w-80 h-100 m-5 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
-                <img src="/public/assets/figma.png"  className="text-7xl text-gray-700 w-18 h-17"/>
+                <img src="/assets/figma.png"  className="text-7xl text-gray-700 w-18 h-17"/>
                 <h1 className="text-2xl font-semibold">Figma</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
                  It’s popular among UI/UX designers and developers because it works directly in the browser and allows real-time collaboration (like Google Docs for design).
@@ -406,7 +405,7 @@ function Home() {
             </div>
 
             <div className="w-80 h-100 m-5 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
-                <img className="h-18" src="/public/assets/wamp.png"></img>
+                <img className="h-18" src="/assets/wamp.png"></img>
                 <h1 className="text-2xl font-semibold">Wamp Server</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
                   ailwind CSS is a modern utility-first CSS framework for rapidly building custom user interfaces.
@@ -458,7 +457,7 @@ function Home() {
           </div>
 
           <div className="m-5">
-            <img className="myprofile w-70 h-auto rounded-full shadow-lg" src="/public/assets/thy1.jpg" alt="My Photo" />
+            <img className="myprofile w-70 h-auto rounded-full shadow-lg" src="/assets/thy1.jpg" alt="My Photo" />
           </div>
         </div>
 
