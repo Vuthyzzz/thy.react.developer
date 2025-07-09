@@ -16,6 +16,22 @@
 }
 
 
+@media (max-width: 360px){
+
+  .responsive{
+    position: relative;
+    right: 25px;
+  }
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 844px) and (orientation: portrait) {
+  .responsive{
+    position: relative;
+    right: 10px;
+  }
+}
+
 @media only screen and (min-width: 8848px) and (max-width: 1104px) and (orientation: portrait) {
     
     .texth,.texth1 {

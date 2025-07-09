@@ -197,11 +197,11 @@ function Home() {
         </div>
       </div>
 
-      <div className="mains m-auto items-center text-center mt-10">
+      <div className="responsive m-auto items-center text-center mt-10  ">
         <h1 className="text-2xl md:text-4xl font-bold text-indigo-600 mt-10  "> MY SKILLS</h1>
         
-        <div className="flex flex-col sm:flex-row justify-center items-center mt-10 flex-wrap">
-            <div className="w-80 h-100 m-5 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
+        <div className="flex flex-col sm:flex-row justify-center items-center mt-10 flex-wrap  ">
+            <div className="w-80 h-100 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
                 <FontAwesomeIcon className="text-7xl text-sky-400" icon={faReact} />
                 <h1 className="text-2xl font-semibold">React Js</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
