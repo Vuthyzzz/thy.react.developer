@@ -49,7 +49,7 @@ export default function Header() {
               
               {/* Logo & Title */}
               <div className="flex-shrink-0 flex justify-center items-center">
-                <img src='/public/assets/thy1.jpg' className='w-14 h-14 rounded-full mr-2' alt="Logo" />
+                <img src="/assets/thy1.jpg" className='w-14 h-14 rounded-full mr-2' alt="Logo" />
                 <h1 className="text-3xl font-bold text-indigo-600">Developer</h1>
               </div>
 
