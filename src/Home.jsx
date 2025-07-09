@@ -27,6 +27,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 
 
+import { Link } from 'react-router-dom';
 
 
 const DashboardCard = ({ title, value, description, color }) => {
@@ -159,7 +160,7 @@ function Home() {
         <h2 className="text-2xl font-bold mb-6 text-center md:text-4xl  text-indigo-600 mt-10 ">My Dashboard</h2>
         <div className="flex justify-center items-center mt-10">
           <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-350">
-            <a href="Experience" className="block">
+             <Link to="/project" className="block">
             <DashboardCard 
               title="Total Projects"
               value={12}
@@ -167,8 +168,8 @@ function Home() {
               color="text-blue-600"
           
             />
-            </a>
-            <a href="Experience" className="block">
+            </Link>
+             <Link to="" className="block">
             <DashboardCard
               title="Language"
               value={9}
@@ -176,22 +177,24 @@ function Home() {
               description="Lagnuage for learn "
               color="text-red-600"
             />
-            </a> <a href="Experience" className="block">
+            </Link> 
+           <Link to="/experience" className="block">
             <DashboardCard
               title="Experience"
               value={1}
               description="Years in Web Development"
               color="text-green-600"
             />
-            </a>
-          <a href="Experience" className="block">
+           </Link>
+          <Link to="/certificate" className="block">
             <DashboardCard
               title="Certificates"
               value={17}
               description="Completed Courses"
               color="text-purple-600"
             />
-          </a>
+          </Link>
+
 
           </div>
         </div>
@@ -201,7 +204,7 @@ function Home() {
         <h1 className="text-2xl md:text-4xl font-bold text-indigo-600 mt-10  "> MY SKILLS</h1>
         
         <div className="flex flex-col sm:flex-row justify-center items-center mt-10 flex-wrap  ">
-            <div className="w-80 h-100 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
+            <div className="w-80 m-5 h-100 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
                 <FontAwesomeIcon className="text-7xl text-sky-400" icon={faReact} />
                 <h1 className="text-2xl font-semibold">React Js</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
