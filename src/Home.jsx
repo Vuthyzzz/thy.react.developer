@@ -470,7 +470,7 @@ function Home() {
 
           <div className="flex flex-col md:flex-row justify-center items-center mt-20">
            
-            <img className="w-120 " src="/public/assets/1-removebg-preview.png" alt="Spinning Icon"/>
+            <img className="w-120 " src="/assets/1-removebg-preview.png" alt="Spinning Icon"/>
             <div className="p-6 m-5 max-w-4xl bg-blue-100 rounded-3xl">
               <p className="text-base md:text-2xl text-justify text-gray-700 leading-relaxed">
                 A full stack developer is skilled in both frontend and backend development.
@@ -559,7 +559,7 @@ function Home() {
               </div>
 
               <div className="flex items-center gap-2">
-                <img src="/public/assets/c-sharp.png" alt="C#" className="w-15 h-15" />
+                <img src="/assets/c-sharp.png" alt="C#" className="w-15 h-15" />
                 <span className="text-lg">C#</span>
               </div>
 
