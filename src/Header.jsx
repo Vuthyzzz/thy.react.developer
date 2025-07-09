@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import { Disclosure, Menu } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useState } from 'react';
+import { Disclosure, Menu } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom'; // ✅ Use Link for client-side routing
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -13,7 +14,7 @@ const navigation = [
   {
     name: 'Project',
     subItems: [
-      { name: 'Project Builded', href: 'Project' },
+      { name: 'Project Builded', href: '/project' },
       { name: 'Web Development', href: '#' },
       { name: 'Mobile App', href: '#' },
       { name: 'AI Tools', href: '#' },
@@ -21,24 +22,24 @@ const navigation = [
   },
   {
     name: 'Contact',
-    href: 'Contact',
+    href: '/contact',
   },
   {
     name: 'Experience',
     subItems: [
-      { name: 'Certificate', href: 'Certificate' },
-      { name: 'Work Experience', href: 'Experience' }
+      { name: 'Certificate', href: '/certificate' },
+      { name: 'Work Experience', href: '/experience' }
     ],
-    href: 'Experience',
+    href: '/experience',
   },
-]
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(' ');
 }
 
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <Disclosure as="nav" className="bg-white shadow-md">
@@ -46,10 +47,10 @@ export default function Header() {
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-20 items-center">
-              
+
               {/* Logo & Title */}
-              <div className="flex-shrink-0 flex justify-center items-center">
-                <img src="/assets/thy1.jpg" className='w-14 h-14 rounded-full mr-2' alt="Logo" />
+              <div className="flex-shrink-0 flex items-center">
+                <img src="/assets/thy1.jpg" className="w-14 h-14 rounded-full mr-2" alt="Logo" />
                 <h1 className="text-3xl font-bold text-indigo-600">Developer</h1>
               </div>
 
@@ -66,15 +67,15 @@ export default function Header() {
                           {item.subItems.map((sub) => (
                             <Menu.Item key={sub.name}>
                               {({ active }) => (
-                                <a
-                                  href={sub.href}
+                                <Link
+                                  to={sub.href}
                                   className={classNames(
                                     active ? 'bg-gray-100 text-indigo-600' : 'text-gray-700',
                                     'block px-4 py-2 text-lg'
                                   )}
                                 >
                                   {sub.name}
-                                </a>
+                                </Link>
                               )}
                             </Menu.Item>
                           ))}
@@ -82,13 +83,13 @@ export default function Header() {
                       </Menu.Items>
                     </Menu>
                   ) : (
-                    <a
+                    <Link
                       key={item.name}
-                      href={item.href}
+                      to={item.href}
                       className="text-gray-700 hover:text-indigo-600 font-medium text-xl"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   )
                 )}
               </div>
@@ -118,24 +119,24 @@ export default function Header() {
                     <span className="block text-gray-700 font-semibold">{item.name}</span>
                     <div className="pl-4">
                       {item.subItems.map((sub) => (
-                        <a
+                        <Link
                           key={sub.name}
-                          href={sub.href}
+                          to={sub.href}
                           className="block text-gray-600 hover:text-indigo-600 py-1"
                         >
                           {sub.name}
-                        </a>
+                        </Link>
                       ))}
                     </div>
                   </div>
                 ) : (
-                  <a
+                  <Link
                     key={item.name}
-                    href={item.href}
+                    to={item.href}
                     className="block text-gray-700 hover:text-indigo-600 py-1"
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 )
               )}
             </div>
@@ -143,5 +144,5 @@ export default function Header() {
         </>
       )}
     </Disclosure>
-  )
+  );
 }
