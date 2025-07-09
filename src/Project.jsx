@@ -5,7 +5,7 @@ function Project() {
     <nav className="bg-gray-100 min-h-screen py-10 px-4">
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center">
         <img
-          src="/src/img/vs1.png"
+          src="/public/assets/vs1.png"
           className="w-full lg:w-[400px] rounded-2xl shadow"
           alt="Version 1 Website"
         />
@@ -30,7 +30,7 @@ function Project() {
 
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center mt-10">
         <img
-          src="/src/img/wp.png"
+          src="/public/assets/wp.png"
           className="w-full lg:w-[400px] rounded-2xl shadow"
           alt="Version 1 Website"
         />
@@ -54,7 +54,7 @@ function Project() {
 
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center mt-10">
         <img
-          src="/src/img/L.png"
+          src="/public/assets/L.png"
           className="w-full lg:w-[400px] rounded-2xl shadow"
           alt="Version 1 Website"
         />
@@ -77,7 +77,7 @@ function Project() {
 
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center mt-10">
         <img
-          src="/src/img/pppp.png"
+          src="/public/assets/pppp.png"
           className="w-full lg:w-[400px] rounded-2xl shadow"
           alt="Version 1 Website"
         />
@@ -100,7 +100,7 @@ function Project() {
 
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center mt-10">
         <img
-          src="/src/img/ppp.png"
+          src="/public/assets/ppp.png"
           className="w-full lg:w-[400px] rounded-2xl shadow"
           alt="Version 1 Website"
         />
@@ -123,7 +123,7 @@ function Project() {
 
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center mt-10">
         <img
-          src="/src/img/cellcard.png"
+          src="/public/assets/cellcard.png"
           className="w-full lg:w-[400px] rounded-2xl shadow"
           alt="Version 1 Website"
         />
@@ -145,7 +145,7 @@ function Project() {
 
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center mt-10">
         <img
-          src="/src/img/metpone.png"
+          src="/public/assets/metpone.png"
           className="w-full lg:w-[400px] rounded-2xl shadow"
           alt="Version 1 Website"
         />
@@ -167,7 +167,7 @@ function Project() {
 
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center mt-10">
         <img
-          src="/src/img/t.png"
+          src="/public/assets/t.png"
           className="w-full lg:w-[400px] rounded-2xl shadow"
           alt="Version 1 Website"
         />
@@ -190,7 +190,7 @@ function Project() {
 
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center mt-10">
         <img
-          src="/src/img/top.png"
+          src="/public/assets/top.png"
           className="w-full lg:w-[400px] rounded-2xl shadow"
           alt="Version 1 Website"
         />

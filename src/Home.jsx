@@ -11,7 +11,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaPhp } from "react-icons/fa6";
 import { SiXampp } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-import qrImage from '/src/img/image.png'; 
+import qrImage from '/public/assets/image.png'; 
 import { FaBootstrap } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { FaVuejs } from "react-icons/fa";
@@ -148,10 +148,9 @@ function Home() {
         </div>
 
         <img
-          className="zoom-image w-[300px] h-auto md:w-[700px]"
-          src="/src/assets/developer.png"
-          alt="Developer illustration"
+          className="zoom-image w-[300px] h-auto md:w-[700px]" src="/public/assets/developer.png"
         />
+
       </div>
 
       <div className="  mx-auto mt-40 ">
@@ -283,7 +282,7 @@ function Home() {
             </div>
 
               <div className="w-80 h-100 m-5 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
-                <img className="h-18" src="/src/assets/c-sharp.png"></img>
+                <img className="h-18" src="/public/assets/c-sharp.png"></img>
                 <h1 className="text-2xl font-semibold">C#</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
                   C# is a modern, object-oriented programming language developed by Microsoft. It’s mainly used for:
@@ -350,7 +349,7 @@ function Home() {
             </div>
 
             <div className="w-80 h-100 m-5 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
-                <img className="h-18" src="/src/assets/wamp.png"></img>
+                <img className="h-18" src="/public/assets/wamp.png"></img>
                 <h1 className="text-2xl font-semibold">Wamp Server</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
                   ailwind CSS is a modern utility-first CSS framework for rapidly building custom user interfaces.
@@ -391,7 +390,7 @@ function Home() {
            
 
             <div className="w-80 h-100 m-5 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
-                <img src="/src/assets/figma.png"  className="text-7xl text-gray-700 w-18 h-17"/>
+                <img src="/public/assets/figma.png"  className="text-7xl text-gray-700 w-18 h-17"/>
                 <h1 className="text-2xl font-semibold">Figma</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
                  It’s popular among UI/UX designers and developers because it works directly in the browser and allows real-time collaboration (like Google Docs for design).
@@ -404,7 +403,7 @@ function Home() {
             </div>
 
             <div className="w-80 h-100 m-5 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
-                <img className="h-18" src="/src/img/wamp.png"></img>
+                <img className="h-18" src="/public/assets/wamp.png"></img>
                 <h1 className="text-2xl font-semibold">Wamp Server</h1>
                 <p className="text-lg text-gray-600 text-justify p-2">
                   ailwind CSS is a modern utility-first CSS framework for rapidly building custom user interfaces.
@@ -456,7 +455,7 @@ function Home() {
           </div>
 
           <div className="m-5">
-            <img className="myprofile w-70 h-auto rounded-full shadow-lg" src="/src/assets/thy1.jpg" alt="My Photo" />
+            <img className="myprofile w-70 h-auto rounded-full shadow-lg" src="/public/assets/thy1.jpg" alt="My Photo" />
           </div>
         </div>
 
@@ -469,7 +468,7 @@ function Home() {
 
           <div className="flex flex-col md:flex-row justify-center items-center mt-20">
            
-            <img className="w-120 " src="/src/assets/1-removebg-preview.png" alt="Spinning Icon"/>
+            <img className="w-120 " src="/public/assets/1-removebg-preview.png" alt="Spinning Icon"/>
             <div className="p-6 m-5 max-w-4xl bg-blue-100 rounded-3xl">
               <p className="text-base md:text-2xl text-justify text-gray-700 leading-relaxed">
                 A full stack developer is skilled in both frontend and backend development.
@@ -558,7 +557,7 @@ function Home() {
               </div>
 
               <div className="flex items-center gap-2">
-                <img src="/src/assets/c-sharp.png" alt="C#" className="w-15 h-15" />
+                <img src="/public/assets/c-sharp.png" alt="C#" className="w-15 h-15" />
                 <span className="text-lg">C#</span>
               </div>
 
@@ -596,7 +595,7 @@ function Home() {
               </div>
 
               <div className="flex items-center gap-2">
-                <img className="h-14" src="/src/assets/wamp.png"></img>
+                <img className="h-14" src="/public/assets/wamp.png"></img>
                 <span className="text-lg">Wamp</span>
               </div>
             </div>
