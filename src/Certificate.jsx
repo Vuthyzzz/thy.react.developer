@@ -5,7 +5,7 @@ function Certificate() {
 
       <div className="flex flex-wrap justify-center gap-16">
         <img src="/assets/wordpress.png" className="w-full sm:w-[300px] md:w-[400px] lg:w-[450px] h-auto transition-transform duration-300 transform hover:scale-105 hover:shadow-xl rounded-lg" alt="WordPress Certificate" />
-        <img src="/java.png" className="w-full sm:w-[300px] md:w-[400px] lg:w-[450px] h-auto transition-transform duration-300 transform hover:scale-105 hover:shadow-xl rounded-lg" alt="Java Certificate" />
+        <img src="/assets/java.png" className="w-full sm:w-[300px] md:w-[400px] lg:w-[450px] h-auto transition-transform duration-300 transform hover:scale-105 hover:shadow-xl rounded-lg" alt="Java Certificate" />
         <img src="/assets/thmls.png" className="w-full sm:w-[300px] md:w-[400px] lg:w-[450px] h-auto transition-transform duration-300 transform hover:scale-105 hover:shadow-xl rounded-lg" alt="HTML Certificate" />
       </div>
 

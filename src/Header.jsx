@@ -48,13 +48,12 @@ export default function Header() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-20 items-center">
 
-              {/* Logo & Title */}
+              
               <div className="flex-shrink-0 flex items-center">
                 <img src="/assets/thy1.jpg" className="w-14 h-14 rounded-full mr-2" alt="Logo" />
                 <h1 className="text-3xl font-bold text-indigo-600">Developer</h1>
               </div>
 
-              {/* Desktop Menu */}
               <div className="hidden md:flex space-x-6">
                 {navigation.map((item) =>
                   item.subItems ? (
