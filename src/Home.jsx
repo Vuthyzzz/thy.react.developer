@@ -148,8 +148,11 @@ function Home() {
         </div>
 
         <img
-          className="zoom-image w-[300px] h-auto md:w-[700px]" src="/public/assets/developer.png"
+          className="zoom-image w-[300px] h-auto md:w-[700px]"
+          src="/assets/developer.png"
+          alt="Developer illustration"
         />
+
 
       </div>
 
