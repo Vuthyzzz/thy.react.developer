@@ -17,7 +17,7 @@ function Footer() {
         <div className="text-center md:text-left">
           <h3 className="text-lg font-semibold mb-2">Contact</h3>
           <p className="text-gray-300">📍 Phnom Penh, Cambodia</p>
-          <p className="text-gray-300">📧 Email: <a href="nopvuthy027@example.com" className="underline">youremail@example.com</a></p>
+          <p className="text-gray-300">📧 Email: <a href="#" className="underline">nopvuthy027@gmail.com</a></p>
           <p className="text-gray-300">📞 Phone: <a href="tel:+855 963034973" className="underline">+855 963034973</a></p>
         </div>
 

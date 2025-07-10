@@ -491,7 +491,7 @@ function Home() {
 
 
         <div className="front flex flex-wrap justify-center  mt-10">
-          <div className="p-6 m-10 w-90 h-auto bg-gray-200   rounded-3xl shadow-md">
+          <div className="p-6 m-10 w-90 h-auto  rounded-2xl shadow-md">
             
             <h1 className="text-xl font-bold mb-4 text-center">FRONTEND DEVELOPER</h1>
 
@@ -537,7 +537,7 @@ function Home() {
             </div>
           </div>
           
-          <div className="p-6 m-10 w-full sm:w-96  bg-gray-200  rounded-3xl shadow-md">
+          <div className="p-6 m-10 w-full sm:w-96   rounded-2xl shadow-md">
             <h1 className="text-xl font-bold mb-4 text-center">BACKEND DEVELOPER</h1>
 
             <div className="flex flex-col gap-4 mt-6">
@@ -574,7 +574,7 @@ function Home() {
           </div>
 
           
-          <div className="p-6 m-10 w-full sm:w-96  bg-gray-200  rounded-3xl shadow-md">
+          <div className="p-6 m-10 w-full sm:w-96   rounded-2xl shadow-md">
             <h1 className="text-xl font-bold mb-4 text-center">DATABASE</h1>
 
             <div className="flex flex-col gap-4 mt-6">
@@ -600,7 +600,7 @@ function Home() {
               </div>
 
               <div className="flex items-center gap-2">
-                <img className="h-14" src="/public/assets/wamp.png"></img>
+                <img className="h-14" src="/assets/wamp.png"></img>
                 <span className="text-lg">Wamp</span>
               </div>
             </div>
@@ -620,7 +620,7 @@ function Home() {
             </p>
             <button className="relative overflow-hidden group h-12 w-40 border border-red-100 bg-red-500 text-white text-xl rounded-lg mt-7">
                 <span className="absolute inset-0 bg-red-600 translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out z-0"></span>
-                <a href="#about" className="relative z-10 blocks w-full h-full flex items-center justify-center">
+                <a href="/about" className="relative z-10 blocks w-full h-full flex items-center justify-center">
                   About Me
                 </a>
             </button>

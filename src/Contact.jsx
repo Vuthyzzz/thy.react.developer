@@ -25,6 +25,7 @@ function Contact() {
 
   return (
     <section className="bg-gray-100  py-10 px-4">
+    
       <div className="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-md">
         <h2 className="text-3xl font-bold text-center text-indigo-600 mb-6">
           Contact Me

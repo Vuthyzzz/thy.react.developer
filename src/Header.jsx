@@ -1,14 +1,18 @@
 import { useState } from 'react';
 import { Disclosure, Menu } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { Link } from 'react-router-dom'; // ✅ Use Link for client-side routing
+import { Link } from 'react-router-dom'; 
 
 const navigation = [
   { name: 'Home', href: '/' },
   {
     name: 'AboutMe',
     subItems: [
+      { name: 'Talking about me', href: '/about' },  
+      
+      { name: 'Support Me ', href: '/Support' },
       { name: 'My CV', href: '/mycv' }
+      
     ]
   },
   {
@@ -61,7 +65,7 @@ export default function Header() {
                       <Menu.Button className="text-gray-700 hover:text-indigo-600 font-medium text-xl">
                         {item.name}
                       </Menu.Button>
-                      <Menu.Items className="absolute z-10 mt-6 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Items className="absolute z-10 mt-6 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-gray-100 ring-opacity-5 focus:outline-none">
                         <div className="py-1">
                           {item.subItems.map((sub) => (
                             <Menu.Item key={sub.name}>

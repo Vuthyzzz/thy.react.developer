@@ -10,11 +10,8 @@ import Project from './Project';
 import Experience from './Experience';
 import Certificate from './Certificate';
 import Footer from './Footer';
-
 import MyCV from './MyCV';
-
-
-
+import Support from './Support';
 
 function App() {
   return (
@@ -28,11 +25,10 @@ function App() {
         <Route path="/Experience" element={<Experience />} />
         <Route path="/Certificate" element={<Certificate />} />
         <Route path="/MyCV" element={<MyCV />} />
+        <Route path="/Support" element={<Support />} /> {/* ✅ Fixed here */}
       </Routes>
-
-      <Footer/>
+      <Footer />
     </Router>
-    
   );
 }
 

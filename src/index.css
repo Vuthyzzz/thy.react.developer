@@ -24,6 +24,15 @@
   }
 
 }
+@media (max-width: 375px){
+
+  .responsive{
+    position: relative;
+    right: 22px;
+  }
+
+}
+
 
 @media only screen and (min-width: 390px) and (max-width: 844px) and (orientation: portrait) {
   .responsive{
@@ -31,6 +40,8 @@
     right: 10px;
   }
 }
+
+
 
 @media only screen and (min-width: 8848px) and (max-width: 1104px) and (orientation: portrait) {
     
@@ -96,9 +107,6 @@
         position: relative;
         bottom: 100px;
       }
-
-
-
       .myprofile{
         width: 200px;
         position: relative;
