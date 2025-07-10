@@ -25,7 +25,7 @@ function Footer() {
         <div className="text-center md:text-left">
           <h3 className="text-lg font-semibold mb-2">Follow Me</h3>
           <div className="flex justify-center md:justify-start gap-4 text-gray-300">
-            <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer" className="hover:text-white">GitHub</a>
+            <a href="https://github.com/Vuthyzzz" target="_blank" rel="noreferrer" className="hover:text-white">GitHub</a>
             <a href="https://www.tiktok.com/@needyouthy?is_from_webapp=1&sender_device=pc" target="_blank" rel="noreferrer" className="hover:text-white">Tik Tok</a>
             <a href="https://www.facebook.com/share/1F13eQ86jZ/" target="_blank" rel="noreferrer" className="hover:text-white">Facebook</a>
           </div>
