@@ -67,7 +67,10 @@
 
 /* phone */
 @media (max-width: 500px) {
-   
+
+   .t-dev{
+    font-size: 22px;
+   }
       .texth,.texth1 {
         font-size: 25px;
       }

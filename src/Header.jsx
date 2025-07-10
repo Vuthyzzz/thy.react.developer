@@ -55,7 +55,7 @@ export default function Header() {
               
               <div className="flex-shrink-0 flex items-center">
                 <img src="/assets/thy1.jpg" className="w-14 h-14 rounded-full mr-2" alt="Logo" />
-                <h1 className="text-3xl font-bold text-indigo-600">Developer</h1>
+                <h1 className="t-dev text-3xl font-bold text-indigo-600">THY-Developer</h1>
               </div>
 
               <div className="hidden md:flex space-x-6">

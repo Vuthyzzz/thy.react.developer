@@ -109,9 +109,10 @@ function Home() {
               <span className="blinking-cursor">|</span>
             </h1>
           </div>
+          
 
           <h2 className="texth1s text-4xl md:text-5xl font-bold text-red-500  mt-10">
-            I AM A DEVELOPER
+            Hey ! I AM A DEVELOPER
           </h2>
 
           <p className="textp text-gray-700 text-xl md:text-2xl leading-relaxed mt-5 text-justify">
