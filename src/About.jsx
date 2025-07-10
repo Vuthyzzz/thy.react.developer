@@ -6,7 +6,7 @@ function About() {
     <section className="bg-gray-100 min-h-screen p-8 space-y-12">
       <div className="bg-white rounded-xl shadow-md p-6 flex flex-col md:flex-row items-center gap-6 max-w-5xl mx-auto ">
         <img
-          src="/public/assets/tt.jpg"
+          src="/assets/tt.jpg"
           className="md:w-30 h-auto"
           alt="W3Schools"
         />
@@ -25,7 +25,7 @@ function About() {
 
       <div className="bg-white rounded-xl shadow-md p-6 flex flex-col md:flex-row-reverse items-center gap-6 max-w-5xl mx-auto ">
         <img
-          src="/public/assets/coding.png"
+          src="/assets/coding.png"
           className="md:w-100 h-auto"
           alt="W3Schools"
         />
