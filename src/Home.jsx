@@ -96,8 +96,8 @@ function Home() {
   }, [displayedText, isDeleting, wordIndex, words, speed]);
 
   return (
-    <nav className="min-h-screen bg-gray-100 p-6">
-      <div className="container mx-auto flex flex-col md:flex-row items-center gap-10">
+    <nav className="min-h-screen bg-gray-100 p-3">
+      <div className="mobile container mx-auto flex flex-col md:flex-row items-center gap-10 mt-40">
         <div className="flex-1 text-center md:text-left w-full md:max-w-[800px]">
           <div className="flex justify-center md:justify-start items-baseline gap-2 mt-5">
             <h1 className="texth text-4xl md:text-6xl font-bold text-indigo-600 mt-4">
@@ -190,7 +190,7 @@ function Home() {
           <Link to="/certificate" className="block">
             <DashboardCard
               title="Certificates"
-              value={17}
+              value={20}
               description="Completed Courses"
               color="text-purple-600"
             />

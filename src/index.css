@@ -67,6 +67,10 @@
 
 /* phone */
 @media (max-width: 500px) {
+  .mobile{
+    position: relative;
+    bottom: 100px;
+  }
 
    .t-dev{
     font-size: 22px;

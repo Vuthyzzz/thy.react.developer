@@ -46,7 +46,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <Disclosure as="nav" className="bg-white shadow-md">
+    <Disclosure as="nav" className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
