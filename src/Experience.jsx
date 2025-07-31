@@ -2,8 +2,8 @@ import React from 'react';
 
 function Experience() {
   return (
-    <section className="bg-white py-10 px-6 h-158">
-      <div className="max-w-4xl mx-auto">
+    <section className="bg-white py-10 px-6 h-158  mt-31">
+      <div className="max-w-4xl mx-auto" >
         <h2 className="text-3xl font-bold text-center text-indigo-600 mb-8">Experience</h2>
 
         <div className="bg-gray-100 p-6 rounded-xl shadow-md">

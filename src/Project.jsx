@@ -2,7 +2,7 @@ import React from "react";
 
 function Project() {
   return (
-    <nav className="bg-gray-100 min-h-screen py-10 px-4">
+    <nav className="bg-gray-100 min-h-screen py-10 px-4 mt-20">
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-md p-6 flex flex-col lg:flex-row gap-6 items-center">
         <img
           src="/assets/vs1.png"

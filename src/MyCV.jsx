@@ -1,7 +1,7 @@
 function MyCV() {
   return (
     <section className="min-h-screen bg-gray-100 py-10 px-4 flex items-center justify-center">
-      <div className="max-w-4xl w-full bg-white p-6  ">
+      <div className="max-w-4xl w-full bg-white p-6  mt-10">
         <h2 className="text-3xl font-bold text-center text-indigo-600 mb-6">My CV</h2>
         <img
           src="/assets/cv.jpg"

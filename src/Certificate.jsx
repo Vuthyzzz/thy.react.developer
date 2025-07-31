@@ -1,6 +1,6 @@
 function Certificate() {
   return (
-    <nav className="bg-gray-200 min-h-screen px-4 py-6">
+    <nav className="bg-gray-200 min-h-screen px-4 py-6 mt-20">
       <h1 className="text-3xl font-bold text-center mb-8">Certificate</h1>
 
       <div className="flex flex-wrap justify-center gap-16">
