@@ -123,7 +123,7 @@ function Home() {
           </p>
 
             <p className="textp text-red-500 text-xl md:text-2xl leading-relaxed mt-5">
-              Why do you want to learn on IT?
+              Why do you want to learn on IT? <a href="https://t.me/kookie_thy">The developer</a>
             </p>
               <div className="mt-10">
                 <button type=" button" class=" text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-xl text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 me-2 h-12">
@@ -202,7 +202,7 @@ function Home() {
       </div>
 
       <div className="responsive m-auto items-center text-center mt-10  ">
-        <h1 className="text-2xl md:text-4xl font-bold text-indigo-600 mt-10  "> MY SKILLS</h1>
+        <h1 className="text-2xl md:text-4xl font-bold text-indigo-600 mt-15  "> MY SKILLS</h1>
         
         <div className="flex flex-col sm:flex-row justify-center items-center mt-10 flex-wrap  ">
             <div className="w-80 m-5 h-100 bg-white border border-gray-300 shadow-md hover:shadow-2xl transition-shadow duration-300 rounded-2xl flex flex-col items-center justify-center text-center p-4 space-y-2">
@@ -627,6 +627,9 @@ function Home() {
             </button>
 
           </div>
+      </div>
+      <div className="h-50">
+
       </div>
 
 
