@@ -430,7 +430,7 @@ function Home() {
           
           <div className="p-5 m-5 max-w-5xl border-none bg-blue-100 mt-8 rounded-3xl">
             <h2 className="text-2xl font-semibold mb-4">About Me</h2>
-            <p className="text-base md:text-2xl text-justify text-gray-700 leading-relaxed  ">
+            <p className="text-base md:text-xl text-justify text-gray-700 leading-relaxed ">
               Welcome to my website. Today, I want to share about myself and the media I used to build this project 
               that shows my profile and background. I'm currently studying at ITI, a second-year student. I have internship 
               experience at RMO Technology as a Web Developer. You can explore this website to learn more about my skills 
@@ -476,7 +476,7 @@ function Home() {
            
             <img className="w-120 " src="/assets/1-removebg-preview.png" alt="Spinning Icon"/>
             <div className="p-6 m-5 max-w-4xl bg-blue-100 rounded-3xl">
-              <p className="text-base md:text-2xl text-justify text-gray-700 leading-relaxed">
+              <p className="text-base md:text-xl text-justify text-gray-700 leading-relaxed">
                 A full stack developer is skilled in both frontend and backend development.
                 They create complete web applications by handling the user interface with HTML,
                 CSS, JavaScript, and frontend libraries like React. On the backend, they use tools
@@ -612,7 +612,7 @@ function Home() {
         <h1 className="purpose text-2xl md:text-4xl font-bold text-indigo-600 mt-10">PURPOSE</h1>
 
           <div className="purpose-box w-full max-w-[1200px] border-none bg-blue-100 p-5 m-auto mt-8 rounded-3xl">
-            <p className="text-lg md:text-2xl text-justify text-gray-700 leading-relaxed">
+            <p className="text-lg md:text-xl text-justify text-gray-700 leading-relaxed">
               This is my website I built to talk about my profile background that I have, 
               and in this you can check my information. I have experience at RMO Technology as an 
               IT Developer.Nowadays, I'm 21 years old, and in my dream, I want to change my life 
